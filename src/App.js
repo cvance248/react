@@ -2,10 +2,13 @@ import React from 'react';
 import TodoList from './TodoList';
 import Login from './components/Login'
 import New from './New'
+import Navigation from './navigation/navigation';
+import './styles/navigation.css';
 
 function App() {
   return (
     <div>
+    <Navigation />
     <TodoList name="Caleb" />
     <Login name="Caleb" />
     <Login name="Evony"/>

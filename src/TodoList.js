@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 function TodoList(props) {
 
@@ -10,6 +10,12 @@ function TodoList(props) {
        let newWords = event.target.value
        setWords(newWords)
     }
+
+    useEffect( () => {
+        console.log('here')
+    }, [count])
+
+
    
     return (
         <div>
