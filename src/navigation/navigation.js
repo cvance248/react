@@ -1,4 +1,5 @@
 import React from 'react';
+import './navigation.css'
 
 function Navigation () {
 
@@ -6,7 +7,7 @@ function Navigation () {
     return (
         <nav>
             <ul>
-                <li>Home</li>
+                <li><a href='./Login.js'>Home</a></li>
                 <li>Products</li>
                 <li>About</li>
                 <li>Contact</li>

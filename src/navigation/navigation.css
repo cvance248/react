@@ -1,0 +1,15 @@
+nav {
+    margin: 1rem 0 !important;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li {
+    padding: .3rem !important;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+}
