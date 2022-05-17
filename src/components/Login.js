@@ -6,7 +6,16 @@ function Login (props) {
 
 
     return (
-        <h1>This is where the login will be for {props.name}</h1>
+        <div className="loginContainer">
+        <span className="loginTitle">Login Form</span>
+        <form action="">
+        <label htmlFor="">Username</label>
+        <input type="text" placeholder={props.name}/>
+        <label htmlFor="">Password</label>
+        <input type="password" />
+        <button>Login</button>
+        </form>
+        </div>
     )
 }
 
