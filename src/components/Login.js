@@ -1,4 +1,5 @@
 import React from "react";
+// import Navigation from '../navigation/navigation';
 import './login.css'
 
 function Login (props) {
@@ -6,6 +7,7 @@ function Login (props) {
 
 
     return (
+        <>
         <div className="loginContainer">
         <span className="loginTitle">Login Form</span>
         <form action="">
@@ -16,6 +18,7 @@ function Login (props) {
         <button>Login</button>
         </form>
         </div>
+        </>
     )
 }
 
